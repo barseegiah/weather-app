@@ -1,0 +1,47 @@
+body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: url('backgroung.jpg') no-repeat;
+    background-size: cover;
+    margin: 10%;
+    
+    
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.container{
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    width: 35%;
+    border-radius: 10px;
+    height: 100%;
+    /* align-items: center; */
+    
+
+}
+
+.form-container{
+    margin: 15%;
+    margin-top: 10px;
+}
+.form{
+    width: 50px;
+}
+.container h1{
+    text-align: center;
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
